@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apple-like Gallery Slideshow</title>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="js/iconfont.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Apple-like Gallery
+            <br>
+            <b>SlideShow</b>
+        </h1>
+        <div id="gallery">
+            <div id="container" class="container">
+                <div id="wrapper" class="wrapper">
+                    <img src="./images/appleWacth.jpg" alt="side" width="700" height="500">
+                    <img src="./images/macbook.jpg" alt="side" width="700" height="500">
+                    <img src="./images/iphone_xr.jpg" alt="side" width="700" height="500">
+                </div>
+                <div class="previous" id='previous'>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-previous"></use>
+                    </svg>
+                </div>
+                <div class="next" id='next'>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-next"></use>
+                    </svg>
+                </div>
+            </div>
+            <div id="menu">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-applewatch"></use>
+                </svg>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-macbook"></use>
+                </svg>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-iphone"></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
