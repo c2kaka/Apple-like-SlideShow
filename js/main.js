@@ -7,7 +7,7 @@ let current = 0;
 $wrapper.css({
   transform: `translate(${-imageWidth}px)`
 });
-
+highLightButton(0);
 makeFakeSlides();
 
 let timerId = setTimer();
